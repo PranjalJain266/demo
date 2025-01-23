@@ -60,7 +60,7 @@ struct LoginView_swift1: View {
                             .foregroundColor(.secondaryText)
                             .padding(.leading , 220)
                     }
-                    //trial commit
+                    
                     NavigationLink{
                         
                         
