@@ -81,7 +81,7 @@ struct SignInView: View {
                                     .padding(.bottom, 25)
                                                   
                     NavigationLink {
-                        LoginView()
+                        LoginView_swift1()
                     } label: {
                         Text("Continue with SignIn")
                             .font(.customfont(.semibold, fontSize: 18))
@@ -97,7 +97,7 @@ struct SignInView: View {
                     
                     
                     NavigationLink {
-                        SignUpView()
+                        SignUpView_swift1()
                     } label: {
                         Text("Continue with SignUp")
                             .font(.customfont(.semibold, fontSize: 18))
